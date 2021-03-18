@@ -1,3 +1,4 @@
+[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/jscdr/badge)](https://www.jsdelivr.com/package/npm/jscdr)
 [![License](https://img.shields.io/badge/License-EPL%202.0-blue)](https://choosealicense.com/licenses/epl-2.0/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -14,6 +15,11 @@ It doesn't include an IDL compiler generating Javascript encoder/decoder for com
 
 
 ## Usage
+
+Add the following to your HTML page:
+```html
+<script src="https://cdn.jsdelivr.net/npm/jscdr@0.0.1/dist/index.umd.js"></script>
+```
 
 Assuming a DDS type is defined with the following IDL:
 ```c

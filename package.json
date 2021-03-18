@@ -1,8 +1,9 @@
 {
   "name": "jscdr",
-  "version": "0.0.1-beta.2",
+  "version": "0.0.1-beta.3",
   "description": "A DDS-CDR encoder/decoder library.",
   "main": "dist/index.js",
+  "browser": "dist/index.umd.min.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "npm-run-all --parallel build:*",

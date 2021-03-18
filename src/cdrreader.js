@@ -1,6 +1,6 @@
 import ByteBuffer from 'bytebuffer';
 
-module.exports = class CDRReader {
+export class CDRReader {
     constructor(byteBuf) {
         this.buf = byteBuf;
         this.reprId = this.buf.readUint16();

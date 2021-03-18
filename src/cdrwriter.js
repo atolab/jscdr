@@ -1,6 +1,6 @@
 import ByteBuffer from 'bytebuffer';
 
-module.exports = class CDRWriter {
+export class CDRWriter {
     constructor() {
         this.buf = new ByteBuffer();
         if (this.buf.littleEndian) {

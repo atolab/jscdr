@@ -1,6 +1,5 @@
-
-var CDRReader = require('./cdrreader.js').CDRReader
-var CDRWriter = require('./cdrwriter.js').CDRWriter
+import CDRReader from './cdrreader.js';
+import CDRWriter from './cdrwriter.js';
 
 module.exports = {
     CDRReader: CDRReader,

@@ -1,6 +1,6 @@
-var ByteBuffer = require('bytebuffer');
+import ByteBuffer from 'bytebuffer';
 
-class CDRReader {
+module.exports = class CDRReader {
     constructor(byteBuf) {
         this.buf = byteBuf;
         this.reprId = this.buf.readUint16();
@@ -82,5 +82,3 @@ class CDRReader {
         return this.readUint32();
     }
 }
-
-module.exports.CDRReader = CDRReader;

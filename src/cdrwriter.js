@@ -1,6 +1,6 @@
-var ByteBuffer = require('bytebuffer');
+import ByteBuffer from 'bytebuffer';
 
-class CDRWriter {
+module.exports = class CDRWriter {
     constructor() {
         this.buf = new ByteBuffer();
         if (this.buf.littleEndian) {
@@ -89,5 +89,3 @@ class CDRWriter {
         this.writeUint32(l);
     }
 }
-
-module.exports.CDRWriter = CDRWriter;

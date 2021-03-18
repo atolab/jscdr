@@ -1,9 +1,11 @@
 {
   "name": "jscdr",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1-beta.1",
   "description": "A DDS-CDR encoder/decoder library.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "babel --out-dir dist src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +27,13 @@
   },
   "homepage": "https://github.com/atolab/jscdr#readme",
   "dependencies": {
+    "@babel/polyfill": "7.12.1",
     "bytebuffer": "5.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.13.10",
+    "@babel/core": "7.13.10",
+    "@babel/preset-env": "7.13.10",
+    "rimraf": "3.0.2"
   }
 }

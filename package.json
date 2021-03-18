@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/atolab/jscdr#readme",
   "dependencies": {
-    "@babel/polyfill": "7.12.1",
     "bytebuffer": "5.0.1"
   },
   "devDependencies": {

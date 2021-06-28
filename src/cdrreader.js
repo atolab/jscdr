@@ -82,7 +82,7 @@ export class CDRReader {
 
     readString() {
         var len = this.readUint32();
-        // Note: skip null-termination char to construct C# String
+        // Note: skip null-termination char to construct JavaScript String
         var str = this.buf.readUTF8String(len - 1);
         this.buf.skip(1);
         return str;

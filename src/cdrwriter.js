@@ -90,7 +90,7 @@ export class CDRWriter {
 
     writeString(s) {
         // Note: Add null-termination char as not present in JavaScript String
-        this.writeUint32(s.len + 1);
+        this.writeUint32(s.length + 1);
         this.buf.writeUTF8String(s);
         this.writeByte(0);
     }

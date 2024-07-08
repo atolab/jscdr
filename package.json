@@ -1,6 +1,6 @@
 {
   "name": "jscdr",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A DDS-CDR encoder/decoder library.",
   "main": "dist/index.js",
   "browser": "dist/index.umd.min.js",

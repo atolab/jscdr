@@ -18,7 +18,7 @@ It doesn't include an IDL compiler generating Javascript encoder/decoder for com
 
 Add the following to your HTML page:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/jscdr@0.0.2/dist/index.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jscdr@0.0.3/dist/index.umd.js"></script>
 ```
 
 Assuming a DDS type is defined with the following IDL:
